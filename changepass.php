@@ -8,6 +8,7 @@
 <?php
 $iid=$_SESSION["eeid"];
 echo $iid;
+//comment
 ?>
 <input type="password" name="oldpass" placeholder="Enter your old Password"><br>
 <input type="password" name="newpass" placeholder="Enter your new Password"><br>
@@ -15,4 +16,5 @@ echo $iid;
 <input type="submit" value="change">
 </form>
 </body>
+
 </html>
